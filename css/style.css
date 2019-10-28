@@ -1,0 +1,32 @@
+:root{
+    --dark-green:(#4e775f);
+}
+
+body{
+    background-color: #4e775f;
+    margin: 20px;
+}
+
+.main-box{
+    margin: 80px;
+}
+
+.top{
+    background-color: #3a3a3a;
+}
+
+button{
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+@media (max-width: 5000px){
+    [aria-expanded="false"] .subscribe{
+        display: none;
+    }
+
+    [aria-expanded="true"] .unsubscribe{
+        display: none;
+    }
+}
